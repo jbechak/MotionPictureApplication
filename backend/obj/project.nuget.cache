@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XqZi2MXZf20uIPxGWreJ9kcmmI2Cnp9qFDz+vh0MvA3jF2Qo0KJjA4cmrdVSw4vENlHof1kwP48ukNLSAdYlhg==",
+  "dgSpecHash": "nU3Hcz/TmbHp+27RBWGbGdT8xdyvQ2swJFVfi3cA4n5Xg9EowyWISnxz510R59ZmEkXERz7ZxUOHT0pcnxsxcg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jbech\\source\\repos\\MotionPictureApp\\MotionPictureApp\\backend\\Backend.csproj",
+  "projectFilePath": "C:\\Users\\jbech\\MayvueTest\\MotionPictureApplication\\backend\\Backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jbech\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\jbech\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jbech\\source\\repos\\MotionPictureApp\\MotionPictureApp\\backend\\Backend.csproj": {}
+    "C:\\Users\\jbech\\MayvueTest\\MotionPictureApplication\\backend\\Backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jbech\\source\\repos\\MotionPictureApp\\MotionPictureApp\\backend\\Backend.csproj": {
+    "C:\\Users\\jbech\\MayvueTest\\MotionPictureApplication\\backend\\Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jbech\\source\\repos\\MotionPictureApp\\MotionPictureApp\\backend\\Backend.csproj",
+        "projectUniqueName": "C:\\Users\\jbech\\MayvueTest\\MotionPictureApplication\\backend\\Backend.csproj",
         "projectName": "Backend",
-        "projectPath": "C:\\Users\\jbech\\source\\repos\\MotionPictureApp\\MotionPictureApp\\backend\\Backend.csproj",
+        "projectPath": "C:\\Users\\jbech\\MayvueTest\\MotionPictureApplication\\backend\\Backend.csproj",
         "packagesPath": "C:\\Users\\jbech\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jbech\\source\\repos\\MotionPictureApp\\MotionPictureApp\\backend\\obj\\",
+        "outputPath": "C:\\Users\\jbech\\MayvueTest\\MotionPictureApplication\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
