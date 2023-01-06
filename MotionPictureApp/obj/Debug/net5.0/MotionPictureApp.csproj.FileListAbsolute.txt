@@ -36,3 +36,4 @@ C:\Users\jbech\MayvueTest\MotionPictureApplication\MotionPictureApp\obj\Debug\ne
 C:\Users\jbech\MayvueTest\MotionPictureApplication\MotionPictureApp\obj\Debug\net5.0\ref\MotionPictureApp.dll
 C:\Users\jbech\MayvueTest\MotionPictureApplication\MotionPictureApp\obj\Debug\net5.0\MotionPictureApp.pdb
 C:\Users\jbech\MayvueTest\MotionPictureApplication\MotionPictureApp\obj\Debug\net5.0\MotionPictureApp.genruntimeconfig.cache
+C:\Users\jbech\MayvueTest\MotionPictureApplication\MotionPictureApp\obj\Debug\net5.0\MotionPictureApp.csproj.AssemblyReference.cache
