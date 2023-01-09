@@ -25,6 +25,7 @@ export default {
     justify-content: center;
     width: 60px;
     
+    
     margin-left: auto;
     margin-right: 20px;
     

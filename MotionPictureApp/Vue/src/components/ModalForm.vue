@@ -127,6 +127,7 @@ export default {
           }
         );
       }
+      this.$emit('saved', this.currentMovie.name);
     },
     resetMovie() {
       this.currentMovie.id = "";
@@ -140,7 +141,7 @@ export default {
     },
 
     deleteMovie() {
-      this.$emit("deleted");
+      this.$emit('deleted', this.currentMovie.name);
     },
 
     toggleStatus() {

@@ -1,7 +1,10 @@
 <template>
   <div class="home">
     <add-button/>
-    <modal-form v-if="$store.state.isEditingMovie == true || $store.state.isAddingMovie == true"/>
+    <modal-form v-if="$store.state.isEditingMovie == true || $store.state.isAddingMovie == true"
+    @saved="notifySaved"
+    @deleted="notifyDeleted"
+    />
     <movie-list v-if="isLoading == false" />
 
   </div>
@@ -26,7 +29,22 @@ export default {
       isLoading: true
     };
   },
-  
+
+  methods: {
+    notifySaved(name) {
+      this.$notify({
+        group: 'messages',
+        title: name + ' saved'
+      });
+    },
+    notifyDeleted(name) {
+      this.$notify({
+        group: 'messages',
+        title: name + ' deleted'
+      });
+    }
+  },
+
   created() {
     MovieService.getAll().then((response) => {
       this.$store.commit("SET_MOVIES", response.data);
@@ -40,7 +58,8 @@ export default {
 <style>
 .home {
   background-color: rgba(0, 0, 0, 0.9);
-  min-height: 100vh;
-  padding-top: 20px;
+  min-height: 98vh;
+  padding-top: 2vh;
+  /* overflow-y: auto; */
 }
 </style>

@@ -24,6 +24,7 @@ export default {
         this.$store.commit("TOGGLE_EDITING_MOVIE");
       }
       this.$store.commit("DELETE_MOVIE", this.movie.id);
+      this.$emit('deleted', this.movie.name);
     },
     cancel() {
       this.$emit("cancelled");

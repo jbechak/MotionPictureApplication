@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-      <router-view/>  
+      <router-view/> 
+      <notifications group="messages" position="top center" /> 
   </div>
 </template>
 
@@ -21,10 +22,12 @@
   margin-left: 0px; */
   /* width: 100%;
   height: 100%; */
+  
 }
 
 body, html {
  margin: 0px; 
+ 
 }
 
 nav {

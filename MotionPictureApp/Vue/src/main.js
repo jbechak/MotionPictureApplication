@@ -3,6 +3,7 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import axios from 'axios'
+import Notifications from 'vue-notification'
 
 
 
@@ -35,6 +36,8 @@ Vue.component('font-awesome-icon', FontAwesomeIcon);
 import MovieListItem from '@/components/MovieListItem.vue';
 
 Vue.config.productionTip = false
+
+Vue.use(Notifications)
 
 
 axios.defaults.baseURL = 'https://localhost:5001';

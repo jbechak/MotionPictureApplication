@@ -28,6 +28,7 @@
     v-show="deletingMovie == true"
       :movie="movie"
       @cancelled="deletingMovie = false"
+      @deleted="deleteMovie"
     />
     
 
@@ -51,10 +52,14 @@ export default {
     };
   },
   methods: {
+    // deleteMovie() {
+    //     console.log("deleted");
+    //   this.deletingMovie = false;
+    //   this.isDeleted = true;
+    // },
+
     deleteMovie() {
-        console.log("deleted");
-      this.deletingMovie = false;
-      this.isDeleted = true;
+      this.$emit('deleted', this.movie.name);
     },
 
     editMovie() {

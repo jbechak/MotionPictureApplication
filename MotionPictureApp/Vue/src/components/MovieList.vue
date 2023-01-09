@@ -8,7 +8,10 @@
     </div>
 
     <div v-for="movie in movies" v-bind:key="movie.id">
-      <movie-list-item v-bind:movie="movie" @movie-copied="copyMovie($event)" />
+      <movie-list-item v-bind:movie="movie" 
+      @movie-copied="copyMovie($event)" 
+      @deleted="notifyDeleted"
+      />
     </div>
   </div>
 </template>
@@ -34,9 +37,16 @@ export default {
   },
 
   methods: {
-    copyMovie(movie) {
-      this.movies.push(movie);
+    notifyDeleted(name) {
+      this.$notify({
+        group: 'messages',
+        title: name + ' deleted'
+      });
     },
+
+    // copyMovie(movie) {
+    //   this.movies.push(movie);
+    // },
     nameSort() {
       if (this.sortedByName && this.ascending) {
         this.movies.sort(function (a, b) {
