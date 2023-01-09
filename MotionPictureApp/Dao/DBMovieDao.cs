@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MotionPictureApp.Dao
 {
-    public class DBMovieDao : MovieDao
+    public class DBMovieDao : IMovieDao
     {
         public List<Movie> GetMovies()
         {

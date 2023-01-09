@@ -14,7 +14,7 @@ namespace MotionPictureApp.Controllers
     [Route("[controller]")]
     public class MovieController : ControllerBase
     {
-        MovieDao dao = new DBMovieDao();
+        IMovieDao dao = new DBMovieDao();
 
         [EnableCors]
         [HttpGet]

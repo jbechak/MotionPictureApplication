@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace MotionPictureApp.Dao
 {
-    interface MovieDao
+    interface IMovieDao
     {
         List<Movie> GetMovies();
 

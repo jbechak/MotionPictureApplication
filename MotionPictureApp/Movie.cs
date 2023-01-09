@@ -13,12 +13,21 @@ namespace MotionPictureApp
         public string Description { get; set; }
         public string ReleaseYear { get; set; }
 
-        public string FullInfo
+        public Movie() { }
+
+        public Movie(String id, String name, String description, String releaseYear)
         {
-            get
-            {
-                return $"{ Name } { Description } ({ ReleaseYear })";
-            }
+            Id = id;
+            Name = name;
+            Description = description;
+            ReleaseYear = releaseYear;
+        }
+
+        public Movie(String name, String description, String releaseYear)
+        {
+            Name = name;
+            Description = description;
+            ReleaseYear = releaseYear;
         }
 
     }

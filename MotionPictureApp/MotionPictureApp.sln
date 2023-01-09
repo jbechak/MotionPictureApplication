@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.33027.164
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MotionPictureApp", "MotionPictureApp.csproj", "{27E9ADC7-E3FF-4F5E-9FC6-E924683ABD5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotionPictureAppTest", "..\MotionPictureAppTest\MotionPictureAppTest.csproj", "{D0A61BA7-1A85-42BE-B0BD-1D33D39984C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{27E9ADC7-E3FF-4F5E-9FC6-E924683ABD5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27E9ADC7-E3FF-4F5E-9FC6-E924683ABD5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27E9ADC7-E3FF-4F5E-9FC6-E924683ABD5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0A61BA7-1A85-42BE-B0BD-1D33D39984C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0A61BA7-1A85-42BE-B0BD-1D33D39984C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0A61BA7-1A85-42BE-B0BD-1D33D39984C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0A61BA7-1A85-42BE-B0BD-1D33D39984C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
