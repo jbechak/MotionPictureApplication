@@ -53,8 +53,6 @@ namespace MotionPictureAppTest
             Assert.Null(result.ReleaseYear);
         }
 
-
-
         [Test]
         public void CREATE_MOVIE_CREATES_NEW_MOVIE()
         {

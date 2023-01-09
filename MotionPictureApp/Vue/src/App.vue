@@ -1,25 +1,10 @@
 <template>
   <div id="app">
-    
-      <router-view/>
-    
-    <!-- <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav> -->
-    
+      <router-view/>  
   </div>
 </template>
 
 <script>
-// import MovieListItem from '@/components/MovieListItem.vue'
-
-// export default {
-//   components: {
-//     MovieListItem
-//   }
-// }
-
 </script>
 
 <style>
@@ -29,6 +14,7 @@
   -moz-osx-font-smoothing: grayscale;
   /* text-align: center; */
   color: #afafaf;
+  /* color: #424242; */
   /* background-color: rgba(0, 0, 0, 0.9); */
   /* padding-top: 15px; */
   /* padding-left: 0px;

@@ -29,21 +29,12 @@
       :movie="movie"
       @cancelled="deletingMovie = false"
     />
-
-    <!-- <delete-movie
-      v-show="deletingMovie == true"
-      :movie="movie"
-      @cancelled="deletingMovie = false"
-      
-    /> -->
-
-
     
+
   </div>
 </template>
 
 <script>
-// import DeleteMovie from "../components/DeleteMovie.vue";
 import ModalDelete from "./ModalDelete.vue";
 
 export default {
@@ -109,11 +100,11 @@ export default {
 }
 
 #year {
-  flex: 1 1 0;
+  flex: .8 1 0;
 }
 
 #actions {
-  flex: 1 1 0;
+  flex: .5 1 0;
   display: flex;
 }
 

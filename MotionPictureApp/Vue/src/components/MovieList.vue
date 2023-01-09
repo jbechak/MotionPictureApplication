@@ -1,11 +1,9 @@
 <template>
   <div>
-    <!-- <div id="header-row" v-show="$store.state.isEditingMovie == false"> -->
     <div id="header-row">
       <div id="header-title" @click="nameSort">Name</div>
       <div id="header-description" @click="descriptionSort">Description</div>
       <div id="header-year" @click="releaseYearSort">Release Year</div>
-
       <div id="header-actions">Actions</div>
     </div>
 
@@ -17,7 +15,7 @@
 
 <script>
 import MovieListItem from "../components/MovieListItem.vue";
-// import MovieService from "../services/MovieService.js";
+
 export default {
   components: { MovieListItem },
   data() {
@@ -30,14 +28,11 @@ export default {
       isLoading: true,
     };
   },
+
   created() {
     this.movies = this.$store.state.movies;
-
-    // MovieService.getAll().then((response) => {
-    //   this.movies = response.data;
-    //   this.isLoading = false;
-    // });
   },
+
   methods: {
     copyMovie(movie) {
       this.movies.push(movie);
@@ -152,14 +147,14 @@ export default {
 
 #header-year {
   padding-left: 10px;
-  flex: 1 1 0;
+  flex: .8 1 0;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
 #header-actions {
   padding-left: 10px;
-  flex: 1 1 0;
+  flex: .5 1 0;
   padding-top: 20px;
   padding-bottom: 20px;
 }

@@ -81,7 +81,7 @@
           @deleted="deleteMovie"
           @cancelled="deletingMovie = false"
           />
-
+        
       </div>
 
     
@@ -170,18 +170,16 @@ export default {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.689);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .modal {
-  background: #ffffff;
-  background-color: rgb(58, 58, 58);
   
-  box-shadow: 2px 2px 20px 1px;
-  overflow-x: auto;
+  box-shadow: 2px 2px 20px 1px rgb(51, 51, 51);
+  /* overflow-x: auto; */
   display: flex;
   flex-direction: column;
   border-radius: 5px;
@@ -192,6 +190,7 @@ export default {
   flex-direction: column;
   align-items: center;
 }
+
 h2 {
   padding-bottom: 0px;
 }
@@ -210,6 +209,10 @@ h2 {
   margin-top: 10px;
   padding-top: 20px;
   padding-bottom: 10px;
+}
+
+#description-label {
+  margin-bottom: 5px;
 }
 
 .description-field {

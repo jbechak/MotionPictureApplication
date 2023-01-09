@@ -39,17 +39,14 @@ export default {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.3);
-  /* display: flex;
-  justify-content: center; */
-  /* align-items: center; */
+  background-color: rgba(0, 0, 0, 0.693);
 }
 
 .modal {
   background: #ffffff;
   background-color: rgb(58, 58, 58);
   
-  box-shadow: 2px 2px 20px 1px;
+  box-shadow: 2px 2px 20px 1px rgb(51, 51, 51);
   overflow-x: auto;
   display: flex;
   flex-direction: column;
