@@ -9,7 +9,6 @@
 
     <div v-for="movie in movies" v-bind:key="movie.id">
       <movie-list-item v-bind:movie="movie" 
-      @movie-copied="copyMovie($event)" 
       @deleted="notifyDeleted"
       />
     </div>
@@ -44,9 +43,6 @@ export default {
       });
     },
 
-    // copyMovie(movie) {
-    //   this.movies.push(movie);
-    // },
     nameSort() {
       if (this.sortedByName && this.ascending) {
         this.movies.sort(function (a, b) {

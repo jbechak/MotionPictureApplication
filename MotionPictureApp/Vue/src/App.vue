@@ -13,16 +13,8 @@
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* text-align: center; */
   color: #afafaf;
-  /* color: #424242; */
-  /* background-color: rgba(0, 0, 0, 0.9); */
-  /* padding-top: 15px; */
-  /* padding-left: 0px;
-  margin-left: 0px; */
-  /* width: 100%;
-  height: 100%; */
-  
+
 }
 
 body, html {
@@ -46,9 +38,6 @@ nav a.router-link-exact-active {
 .button {
   background-color: rgb(105, 105, 255);
   color: rgb(230, 230, 230);
-  /* display: flex; */
-
-  /* justify-content: center; */
   padding: 10px;
   padding-left: 6px;
   border-radius: 4px;

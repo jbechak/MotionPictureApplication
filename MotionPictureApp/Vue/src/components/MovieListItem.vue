@@ -52,12 +52,7 @@ export default {
     };
   },
   methods: {
-    // deleteMovie() {
-    //     console.log("deleted");
-    //   this.deletingMovie = false;
-    //   this.isDeleted = true;
-    // },
-
+    
     deleteMovie() {
       this.$emit('deleted', this.movie.name);
     },
