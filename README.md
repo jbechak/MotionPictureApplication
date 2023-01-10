@@ -1,7 +1,7 @@
 # MotionPictureApplication
 Motion Picture Data Management Application
 
-To run application:
+To run the application:
 
 1. Set up the Database: MotionPictureApp/database/MotionPicturesDB.sql contains the scripts 
 	to create the database.	Run this script in SQL Server Management Studio and connect the 
