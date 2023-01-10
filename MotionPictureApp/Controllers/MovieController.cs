@@ -16,7 +16,7 @@ namespace MotionPictureApp.Controllers
     {
         IMovieDao dao = new DBMovieDao();
 
-        [EnableCors]
+        //[EnableCors]
         [HttpGet]
         public List<Movie> GetMovies()
         {
